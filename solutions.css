@@ -41,12 +41,57 @@
 }
 
 /* Esercizio 6 */
-.ex-6-img{
-    transition: all 5s;
-}
 .ex-6-img:hover{
     filter:grayscale()
 }
+
+/* Esercizio 7 */
+.ex-7-img{
+    transition: all 3s;
+}
+.ex-7-img:hover{
+    filter:grayscale()
+}
+
+/* Esercizio 8 */
+.ex-8-img{
+    transition: all 3s;
+}
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter:grayscale()
+}
+
+/* Esercizio 9 */
+/* .ex-9-img{
+    transition: all 3s;
+} */
+.ex-9-img:hover{
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+/* Esercizio 10 */
+.ex-10-icon {
+    animation: move 5s infinite;
+}
+@keyframes move {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+/* Esercizio 11 */
+.ex-11-icon {
+    animation: move1 5s infinite;
+}
+@keyframes move1 {
+    0% {transform: rotate(0deg);}
+    90% {transform: rotate(270deg);}
+    100% {transform: rotate(0deg);}
+}
+
+
 
 
 
