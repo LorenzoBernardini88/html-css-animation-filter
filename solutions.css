@@ -91,6 +91,33 @@
     100% {transform: rotate(0deg);}
 }
 
+/* Esercizio 12 */
+.ex-12-top-white{
+    animation: move2 2s infinite;
+}
+.ex-12-bottom-white{
+    animation: move3 2s infinite;
+}
+
+
+@keyframes move2 {
+    0%{left: 10px;}
+    25%{left: 20px;}
+    50%{left: 40px}
+    75%{left: 60px}
+    100%{left:10px}
+}
+
+@keyframes move3 {
+    0%{right: 10px;}
+    25%{right: 20px;}
+    50%{right: 40px}
+    75%{right: 60px}
+    100%{right:10px}
+}
+
+
+
 
 
 
